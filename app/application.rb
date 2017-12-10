@@ -15,7 +15,7 @@ class Application
       end
     else
       resp.status=404
-      resp.write "Whatchoo talkin bout, Willis?"
+      resp.write "Route not found"
     end
     resp.finish
   end
